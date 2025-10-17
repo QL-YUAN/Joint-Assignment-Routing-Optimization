@@ -92,6 +92,8 @@ for exp_id in exp_ids[5:30]:
         m.addConstr(gp.quicksum(a[i, p] for i in items) == 2, name=f"placeholder_link_{p}")
 
     m.addConstr(a[items[-1], placeholders[-1]] == 1, name="force_last_link")
+    m.addConstr(x[items[-1], placeholders[-1]] == 1, name="force_last_edge")
+    m.addConstr(x[placeholders[-1],items[-1]] == 0, name="forbiden_last_edge")
 
     # Edges only between linked pairs
     for i in nodes:
