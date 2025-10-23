@@ -11,7 +11,7 @@ The code solves the following problem:
 - And find a Hamiltonian cycle through the item–placeholder pairs,
 - Minimizing total travel cost.
 - Can solve problem with additional constraints
-[Watch the chess animation](https://github.com/youruser/yourrepo/raw/main/chess_allocation.webm)
+[Watch the chess animation](https://github.com/QL-YUAN/Joint-Assignment-Routing-Optimization/blob/main/chess_allocation.webm)
 ## Requirements
 
 - Python 3.11.13
