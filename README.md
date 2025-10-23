@@ -10,7 +10,7 @@ The code solves the following problem:
 - Assign each item to a unique placeholder,
 - And find a Hamiltonian cycle through the item–placeholder pairs,
 - Minimizing total travel cost.
-
+- Can solve problem with additional constraints<video src="chess_allocation.webm" controls width="600" />
 ## Requirements
 
 - Python 3.11.13
