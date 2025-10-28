@@ -1,6 +1,7 @@
 # Joint Assignment–Routing Solver (Gurobi-based)
-This repository is linked to arXiv paper (https://arxiv.org/abs/2510.17888)
-contains the implementation of a mixed-integer programming (MIP) model for solving a joint assignment–routing problem. It was developed for academic research and uses [Gurobi Optimizer](https://www.gurobi.com/) to solve the underlying MIP formulation.
+This repository is linked to arXiv paper (https://arxiv.org/abs/2510.17888). 
+
+It contains the implementation of a mixed-integer programming (MIP) model for solving a joint assignment–routing problem. It was developed for academic research and uses [Gurobi Optimizer](https://www.gurobi.com/) to solve the underlying MIP formulation.
 
 ## Description
 
